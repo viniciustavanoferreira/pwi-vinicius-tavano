@@ -1,0 +1,11 @@
+.dimensao {
+    width: 1200px;
+}  
+
+img {
+    border: solid 1px #ffffff;
+}
+
+#pontilhado {
+    border: dotted 5px #fff000;
+}

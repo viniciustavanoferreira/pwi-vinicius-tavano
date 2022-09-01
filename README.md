@@ -1,2 +1,3 @@
 # pwi-vinicius-tavano
-Repositório para as aulas de Programação Web | sob a tutela dos professores Orlando Gomes e João Siles
+## Desenvolvimento de Sistemas
+![Alt Text](https://media.giphy.com/media/37nUOlOoYC5FPwthz6/giphy.gif)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        Tutorial CSS
+        <link rel="stylesheet" href="./css/estilo.css">
+    </head>
+
+    <body>
+        <h1>Como utilizar o CSS externamente</h1>
+
+        <hr>
+
+        <h3>1 - Importar da folha de estilo CSS (stylesheet)</h3>
+
+        <p>A declaração
+            <span class="monospace">
+                &#60;link rel="stylesheet" href="./css/imagem.css"&#62;
+            </span style>
+            declara a folha de estilo css de uma página onde "rel" é a definição do tipo de
+            arquivo que será importado (neste caso, css) e "href" aponta o diretório onde
+            arquivo se localiza.</p>
+        <h5>Exemplo:</h5>
+        <img src="./img/declaracao.png">
+        <hr>
+
+        <h3>2 - Definir de classes CSS</h3>
+
+        <p>No arquivo .css são declaradas as formas de estilo para serem aplicadas aos
+            elementos HTML, e podem ser feitas de três maneiras, respectivamente, através de
+            1 - classes (com um "." no começo da declaração); <br>
+            2 - tags html (tags html em si, como img, p), e o estilo será aplicado para tudo o que for img; <br> 
+            3 - identificações únicas (através de #); 
+        </p>
+
+        <img src="./img/css.png">
+        <p></p>
+
+        <hr>
+        <h3>3 - Atribuir estilos aos elementos HTML</h3>
+        <p>Neste exemplo, aplicaremos estilo à uma imagem específica.
+
+            <p>No primeiro exemplo de uso, a classe .dimensao foi utilizada para a imagem
+                sob o atributo class.</p>
+            <img src="./img/1.png">
+            <p>
+                No segundo exemplo de uso, o estilo é aplicado via definição (conector) img no
+                arquivo .css.</p>
+            <img src="./img/2.png">
+            <p>
+                No terceiro exemplo de uso, a aplicação do estilo é determinada pelo uso do id
+                como atributo da tag img.</p>
+            <img src="./img/3.png">
+
+            <hr>
+            <h3>4 - Resultado</h3>
+            <img src="./img/saida.png">
+
+        </body>
+    </html>
